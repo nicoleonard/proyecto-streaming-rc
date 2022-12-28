@@ -1,1 +1,2 @@
-este archivo es de pruebita para hacer merge entre una rama cualquiera y la rama principal
+este archivo es de pruebita para hacer merge entre una rama cualquiera (agrego un parentesis para que tenga conflicto con el otro archivo de pruebita) y la rama principal
+prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba prueba 
