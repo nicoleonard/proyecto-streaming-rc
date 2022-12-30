@@ -1,0 +1,10 @@
+.btn_continuar{
+    background: linear-gradient(82deg,#e1054a 19%,#ce4100);
+}
+
+.input_password::placeholder{
+    color: #fff
+}
+.input_email::placeholder{
+    color: #fff
+}
