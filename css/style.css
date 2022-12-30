@@ -3,10 +3,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-nav{
-  
-  background: black;
-}
+
 main {
   flex-grow: 1;
 }
@@ -14,7 +11,11 @@ main {
 footer a {
   text-decoration: none;
 }
-footer {
+body {
+  background: #000000;
+}
+
+.backgroundNegro{
   background: #000000;
 }
 
