@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
 }
 .logo-moon{
-    width: 190px;
+  width: 100px;
 }
 .btn_continuar{
   background: linear-gradient(82deg,#e1054a 19%,#ce4100);
