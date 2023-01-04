@@ -7,14 +7,17 @@
     <meta name="description" content="practica de html y css" />
     <meta
       name="keywords"
-      content="Estrella+, Series, Peliculas, On demand, Servicios streaming"/>
+      content="Estrella+, Series, Peliculas, On demand, Servicios streaming"
+    />
     <meta
       name="author"
-      content="Barrionuevo Juan carlos,Leonard Bruno Nicolas, Monachesi Cesar Ezequiel, Rodriguez	Nahuel Federico "/>
+      content="Barrionuevo Juan carlos,Leonard Bruno Nicolas, Monachesi Cesar Ezequiel, Rodriguez	Nahuel Federico "
+    />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="bg-dark">
@@ -22,7 +25,11 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid mx-0">
           <a href="./index.html" class="navbar-brand">
-            <img src="./img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg" class="logo-moon" alt="logo moon"></a>
+            <img
+              src="./img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg"
+              class="logo-moon"
+              alt="logo moon"
+          /></a>
           <button
             type="button"
             class="navbar-toggler"
@@ -36,13 +43,93 @@
               <li class="nav-item">
                 <a href="./index.html" class="nav-link active">Inicio</a>
               </li>
-              </li>
+
               <li class="nav-item">
                 <a href="./pages/Peliculas.html" class="nav-link">Peliculas</a>
               </li>
               <li class="nav-item">
                 <a href="./pages/Series.html" class="nav-link">Series</a>
               </li>
+              <li class="nav-item dropdown dropdown-mega position-static">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
+                  >Categorías</a
+                >
+
+                <div class="dropdown-menu shadow bg-dark" aria-labelledby="navbarDropdown">
+                  <div class="mega-content px-md-4 ">
+                    <div class="container-fluid ">
+                      <div class="row justify-content-center ">
+                        <div class="col-6  py-4 px-xl-5 px-4 border-end border-white w-50
+                        ">
+                          <h5 class="text-bg-dark">Categorias principales</h5>
+                            <div class="row ">
+                              <div class="col-4 mb-3">
+                                <a href="./pages/error404.html">
+                                  <button type="button" class="btn btn-secondary p-3 h-100 w-100">Favoritos de Moon +</button>
+                                </a>
+                                </div>
+                                
+                              <div class="col-4 mb-3">
+                                <a href="./pages/error404.html">
+                                  <button type="button" class="btn btn-secondary p-3 h-100 w-100">Niños</button>
+                                </a>
+                              </div>
+                              <div class="col-4 mb-3">
+                                <a href="./pages/error404.html">
+                                  <button type="button" class="btn btn-secondary p-3 ">Peliculas añadidas recientemente</button>
+                                </div>
+                                </a>
+                              <div class="col-4 ">
+                                <a href="./pages/error404.html">
+                                  <button type="button" class="btn btn-secondary p-3 ">Series añadidas recientemente</button>
+                                </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-6 py-4 px-xl-5 px-4 w-50">
+                          <h5 class="text-bg-dark">Géneros</h5>
+                          <div class="row">
+                            <div class="col-6">
+                              <div class="list-group ">
+                                <a href="./pages/cienciaFiccion.html" class="list-group-item text-bg-dark">Ciencia ficción</a>
+                                <a href="" class="list-group-item text-bg-dark disabled">Acción y aventura</a>
+                                <a href="" class="list-group-item text-bg-dark disabled" >Biografías</a>
+                                <a href="./pages/Comedia.html" class="list-group-item text-bg-dark">Comedia</a>
+                                <a href="" class="list-group-item text-bg-dark disabled">Crimen</a>
+                              </div>
+                            </div>
+                            <div class="col-6">
+                              <div class="list-group ">
+                                <a href="" class="list-group-item text-bg-dark disabled">Drama </a>
+                                <a href="" class="list-group-item text-bg-dark disabled">Documentales</a>
+                          
+                                <a href="" class="list-group-item text-bg-dark disabled">Terror y suspenso</a>
+                                <a href="" class="list-group-item text-bg-dark disabled">Música</a>
+                                <a href="" class="list-group-item text-bg-dark disabled">Romance</a>
+                                
+                              </div>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </li>
+
               <li class="nav-item">
                 <a href="./pages/Iniciarsesion.html" class="nav-link"
                   >Iniciar sesión</a
@@ -53,228 +140,388 @@
                   >Subscribir</a
                 >
               </li>
-              <form class="busqueda">    
-              <div class="formulario_enviar">
-                <label for="busqueda"></label>
-                <input type="text" class="rounded-1"
-                placeholder="Busqueda..." size="15px"
-                minlength="2" maxlength="30">
-                <button type="submit" class="btn-enviar-caja rounded-1" id="btn-enviar"><i class="bi bi-search text-danger"></i></button>
-              </div>
-        </form>
+              <form class="busqueda">
+                <div class="formulario_enviar">
+                  <label for="busqueda"></label>
+                  <input
+                    type="text"
+                    class="rounded-1"
+                    placeholder="Busqueda..."
+                    size="15px"
+                    minlength="2"
+                    maxlength="30"
+                  />
+                  <button
+                    type="submit"
+                    class="btn-enviar-caja rounded-1"
+                    id="btn-enviar"
+                  >
+                    <i class="bi bi-search text-danger"></i>
+                  </button>
+                </div>
+              </form>
             </ul>
           </div>
         </div>
       </nav>
     </header>
     <main>
-    <section>
-      <div id="carousel-Fade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/Top Gun Maverick FHD.jpg" class="d-block w-100" alt="top gun maverick">
+      <section>
+        <div
+          id="carousel-Fade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/Top Gun Maverick FHD.jpg"
+                class="d-block w-100"
+                alt="top gun maverick"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/The Walking Dead banner.jpg"
+                class="d-block w-100"
+                alt="TWD"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/compose MIRA COMO CORREN.jpg"
+                class="d-block w-100"
+                alt="Mira como corren"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/Depredador la presa.jpg"
+                class="d-block w-100"
+                alt="Depredador la presa"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/Deadpool 2.jpg"
+                class="d-block w-100"
+                alt="DeadPool 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/Tini tour 2022.jpg"
+                class="d-block w-100"
+                alt="Tini tour 2022"
+              />
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="./img/The Walking Dead banner.jpg" class="d-block w-100" alt="TWD">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/compose MIRA COMO CORREN.jpg" class="d-block w-100" alt="Mira como corren">
-          </div>
-          <div class="carousel-item">
-              <img src="./img/Depredador la presa.jpg" class="d-block w-100" alt="Depredador la presa">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/Deadpool 2.jpg" class="d-block w-100" alt="DeadPool 2">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-Fade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-Fade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-item">
-          <img src="./img/Tini tour 2022.jpg" class="d-block w-100" alt="Tini tour 2022">
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Fade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-Fade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <section class="container-fluid">
-      <h5 class="text-light py-3">Peliculas o series sugeridas</h5>
-      <article class="row">
-        <aside class="col-md-2 mb-3">
-          <a href="/index.html"><img src="img/El Paciente.jfif" alt="El Paciente" class="w-100 rounded-3 filtro-tarjetas"/></a>
-        </aside>
-        <aside class="col-md-2 mb-3">
-          <a href="/index.html"><img src="img/chucky.jfif" alt="chucky" class="w-100 rounded-3 filtro-tarjetas"/></a> 
-        </aside>
-        <aside class="col-md-2 mb-3">
-          <a href="/index.html"><img src="img/Deadpool.jfif" alt="Deadpool" class="w-100 rounded-3 filtro-tarjetas"/></a>
-        </aside>
+      </section>
+      <section class="container-fluid">
+        <h5 class="text-light py-3">Peliculas o series sugeridas</h5>
+        <article class="row">
           <aside class="col-md-2 mb-3">
-            <a href="/index.html"><img src="img/Tup Gun.jfif" alt="TopGun" class="w-100 rounded-3 filtro-tarjetas"/></a>
+            <a href="/index.html"
+              ><img
+                src="img/El Paciente.jfif"
+                alt="El Paciente"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
           </aside>
           <aside class="col-md-2 mb-3">
-            <a href="/index.html"><img src="img/The walking Dead.jfif" alt="TWD" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+            <a href="/index.html"
+              ><img
+                src="img/chucky.jfif"
+                alt="chucky"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
           </aside>
           <aside class="col-md-2 mb-3">
-            <a href="/index.html"><img src="img/Free Guy.jfif" alt="Freeguy" class="w-100 rounded-3 filtro-tarjetas"/></a>  
+            <a href="/index.html"
+              ><img
+                src="img/Deadpool.jfif"
+                alt="Deadpool"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/Tup Gun.jfif"
+                alt="TopGun"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/The walking Dead.jfif"
+                alt="TWD"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/Free Guy.jfif"
+                alt="Freeguy"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
           </aside>
         </article>
-          <a href="/pages/Comedia.html"><h5 class="text-light text-decoration-underline py-3">Comedia</h5></a>
+        <a href="/pages/Comedia.html"
+          ><h5 class="text-light text-decoration-underline py-3">Comedia</h5></a
+        >
+        <article class="row">
+          <aside class="col-md-2 mb-3">
+            <a href="pages/lossimpsons.html"
+              ><img
+                src="img/Los Simpson.jfif"
+                alt="lossimpsons"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/Sonic 2.jfif"
+                alt="Sonic 2"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/How i meet your mother.jfif"
+                alt="How i meet"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/badging.jfif"
+                alt="Badging"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/la ciudad perdida.jfif"
+                alt="la ciudad perdida"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/El Encargado.jfif"
+                alt="el encargado"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+        </article>
+        <a href="/pages/seriesparamaratonear.html"
+          ><h5 class="text-light text-decoration-underline py-3">
+            Series para maratonear
+          </h5></a
+        >
+        <article class="row">
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/The handsmaids tale.jfif"
+                alt="Thehandsmaidstale"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/The x files.jfif"
+                alt="TheXfiles"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/sons of Anarchy.jfif"
+                alt="SonsofAnarchy"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/Lost.jfif"
+                alt="lost"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/Scream Queens.jfif"
+                alt="screamqueens"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"
+              ><img
+                src="img/Resident Alien.jfif"
+                alt="Resident Alien"
+                class="w-100 rounded-3 filtro-tarjetas"
+            /></a>
+          </aside>
+        </article>
+      </section>
+      <section>
+        <nav aria-label="Navegacion de pagina">
+          <ul class="pagination justify-content-center py-3">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link active" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="/pages/error404.html">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="pages/error404.html">3</a>
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link"
+                href="/pages/error404.html"
+                aria-label="Next"
+              >
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="text-white display-3 text-center my-5">Elegí tu plan</h2>
           <article class="row">
-            <aside class="col-md-2 mb-3">
-              <a href="pages/lossimpsons.html"><img src="img/Los Simpson.jfif" alt="lossimpsons" class="w-100 rounded-3 filtro-tarjetas"/></a>
-            </aside>
-            <aside class="col-md-2 mb-3">
-              <a href="/index.html"><img src="img/Sonic 2.jfif" alt="Sonic 2" class="w-100 rounded-3 filtro-tarjetas"/></a> 
-            </aside>
-            <aside class="col-md-2 mb-3">
-              <a href="/index.html"><img src="img/How i meet your mother.jfif" alt="How i meet" class="w-100 rounded-3 filtro-tarjetas"/></a>
-            </aside>
-              <aside class="col-md-2 mb-3">
-                <a href="/index.html"><img src="img/badging.jfif" alt="Badging" class="w-100 rounded-3 filtro-tarjetas"/></a>
-              </aside>
-              <aside class="col-md-2 mb-3">
-                <a href="/index.html"><img src="img/la ciudad perdida.jfif" alt="la ciudad perdida" class="w-100 rounded-3 filtro-tarjetas"/></a> 
-              </aside>
-              <aside class="col-md-2 mb-3">
-                <a href="/index.html"><img src="img/El Encargado.jfif" alt="el encargado" class="w-100 rounded-3 filtro-tarjetas"/></a>  
-              </aside>
-            </article>
-            <a href="/pages/seriesparamaratonear.html"><h5 class="text-light text-decoration-underline py-3">Series para maratonear</h5></a>
-            <article class="row">
-              <aside class="col-md-2 mb-3">
-                <a href="/index.html"><img src="img/The handsmaids tale.jfif" alt="Thehandsmaidstale" class="w-100 rounded-3 filtro-tarjetas"/></a>
-              </aside>
-              <aside class="col-md-2 mb-3">
-                <a href="/index.html"><img src="img/The x files.jfif" alt="TheXfiles" class="w-100 rounded-3 filtro-tarjetas"/></a> 
-              </aside>
-              <aside class="col-md-2 mb-3">
-                <a href="/index.html"><img src="img/sons of Anarchy.jfif" alt="SonsofAnarchy" class="w-100 rounded-3 filtro-tarjetas"/></a>
-              </aside>
-                <aside class="col-md-2 mb-3">
-                  <a href="/index.html"><img src="img/Lost.jfif" alt="lost" class="w-100 rounded-3 filtro-tarjetas"/></a>
-                </aside>
-                <aside class="col-md-2 mb-3">
-                  <a href="/index.html"><img src="img/Scream Queens.jfif" alt="screamqueens" class="w-100 rounded-3 filtro-tarjetas"/></a> 
-                </aside>
-                <aside class="col-md-2 mb-3">
-                  <a href="/index.html"><img src="img/Resident Alien.jfif" alt="Resident Alien" class="w-100 rounded-3 filtro-tarjetas"/></a>  
-                </aside>
-              </article>
-          </section>
-          <section>
-            <nav aria-label="Navegacion de pagina">
-              <ul class="pagination justify-content-center py-3">
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-                <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="/pages/error404.html">2</a></li>
-                <li class="page-item"><a class="page-link" href="pages/error404.html">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="/pages/error404.html" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </section>
-          <section>
-            <div class="container">
-              <h2 class="text-white display-3 text-center my-5">Elegí tu plan</h2>
-              <article class="row">
-                <aside
-                  class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-1"
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-1"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
                 >
-                  <div class="card-body text-white">
-                    <h5
-                      class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
-                    >
-                      <b class="text-danger"
-                        >Moon <span class="text-secondary">+</span></b
-                      >
-                    </h5>
-                    <div
-                      class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
-                    >
-                      <h4 class="text-center display-5">Premium</h4>
-                      <p class="text-start">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Eaque quasi eius nemo ipsam doloribus doloremque saepe
-                        debitis, quidem inventore placeat?
-                      </p>
-                      <button type="button" class="btn btn-outline-danger">
-                        Suscribete
-                      </button>
-                    </div>
-                  </div>
-                </aside>
-                <aside
-                  class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-2"
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
                 >
-                  <div class="card-body text-white">
-                    <h5
-                      class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
-                    >
-                      <b class="text-danger"
-                        >Moon <span class="text-secondary">+</span></b
-                      >
-                    </h5>
-                    <div
-                      class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
-                    >
-                      <h4 class="text-center display-5">Familiar</h4>
-                      <p class="text-start">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Eaque quasi eius nemo ipsam doloribus doloremque saepe
-                        debitis, quidem inventore placeat?
-                      </p>
-                      <button type="button" class="btn btn-outline-danger">
-                        Suscribete
-                      </button>
-                    </div>
-                  </div>
-                </aside>
-                <aside
-                  class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-0"
+                  <h4 class="text-center display-5">Premium</h4>
+                  <p class="text-start">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eaque quasi eius nemo ipsam doloribus doloremque saepe
+                    debitis, quidem inventore placeat?
+                  </p>
+                  <button type="button" class="btn btn-outline-danger">
+                    Suscribete
+                  </button>
+                </div>
+              </div>
+            </aside>
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-2"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
                 >
-                  <div class="card-body text-white">
-                    <h5
-                      class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
-                    >
-                      <b class="text-danger"
-                        >Moon <span class="text-secondary">+</span></b
-                      >
-                    </h5>
-                    <div
-                      class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
-                    >
-                      <h4 class="text-center display-5">Classic</h4>
-                      <p class="text-start">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Eaque quasi eius nemo ipsam doloribus doloremque saepe
-                        debitis, quidem inventore placeat?
-                      </p>
-                      <button type="button" class="btn btn-outline-danger">
-                        Suscribete
-                      </button>
-                    </div>
-                  </div>
-                </aside>
-              </article>
-            </div>
-          </section> 
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Familiar</h4>
+                  <p class="text-start">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eaque quasi eius nemo ipsam doloribus doloremque saepe
+                    debitis, quidem inventore placeat?
+                  </p>
+                  <button type="button" class="btn btn-outline-danger">
+                    Suscribete
+                  </button>
+                </div>
+              </div>
+            </aside>
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-0"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Classic</h4>
+                  <p class="text-start">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eaque quasi eius nemo ipsam doloribus doloremque saepe
+                    debitis, quidem inventore placeat?
+                  </p>
+                  <button type="button" class="btn btn-outline-danger">
+                    Suscribete
+                  </button>
+                </div>
+              </div>
+            </aside>
+          </article>
+        </div>
+      </section>
     </main>
     <footer class="py-4">
       <section class="container w-50">
         <section
-          class="d-flex flex-row align-items-center justify-content-center fs">
-          <img src="img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg" class="logo-moon" alt="logo moon">
+          class="d-flex flex-row align-items-center justify-content-center fs"
+        >
+          <img
+            src="img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg"
+            class="logo-moon"
+            alt="logo moon"
+          />
         </section>
         <article class="row text-secondary mt-4 justify-content-center">
           <aside class="col-12 col-md-4 mt-2 text-center px-0">
@@ -305,14 +552,16 @@
             <a
               href="./pages/nosotros.html"
               class="text-secondary filtro_enlaces"
-              >Acerca de Moon +</a>
+              >Acerca de Moon +</a
+            >
           </aside>
         </article>
       </section>
       <section class="container w-50 mt-4 text-secondary text-center">
         <p class>&copy;Todos los derechos reservados</p>
-         <h5>Moon+</h5>  es un servicio por sucripción de pago, su contendido está
-          sujeto a disponibilidad.
+        <h5>Moon+</h5>
+        es un servicio por sucripción de pago, su contendido está sujeto a
+        disponibilidad.
       </section>
     </footer>
   </body>
@@ -320,6 +569,5 @@
     src="https://kit.fontawesome.com/170be67319.js"
     crossorigin="anonymous"
   ></script>
-<script src="js/bootstrap.min.js">
-</script>
+  <script src="js/bootstrap.min.js"></script>
 </html>

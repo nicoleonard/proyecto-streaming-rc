@@ -69,7 +69,7 @@ main {
 .hover_cambiar_color:hover {
 background:#dc3545;
 }
-img:hover{
+main .container-fluid img:hover, .hover_cambiar_color:hover{
   transform: scale(1.10);
   transition: all 0.4s;
 }
@@ -93,4 +93,11 @@ footer {
 .filtro_enlaces:hover {
   transition: 500ms;
   filter: brightness(3);
+}
+.dropdown-mega .dropdown-menu{
+  width: 100%;
+  
+}
+.dropdown-menu .list-group-item{
+  border: none;
 }
