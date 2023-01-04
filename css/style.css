@@ -3,19 +3,90 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
+.logo-moon{
+    width: 190px;
+}
+.btn_continuar{
+  background: linear-gradient(82deg,#e1054a 19%,#ce4100);
+}
+.filtro-tarjetas{
+  filter: grayscale(30%);
+}
+.filtro-tarjetas:hover{
+  filter: grayscale(0);
+  transition: 400ms;
+}
+.input_password::placeholder{
+  color: #fff
+}
+.input_email::placeholder{
+  color: #fff
+}
+nav{
+  background: black;
+}
 main {
   flex-grow: 1;
+}
+.modal-dialog .modal-content{
+  background: #495057;
+  color: white;  
+}
+.modal-dialog .modal-header{
+  border: none;
+}
+.page-link{
+  background-color: #b14119;
+  border: #b14119;
+  color: white;
+}
+.page-link.active{
+  background-color: black;
+  border: black;
+}
+.page-link:hover{
+  background-color: #8f391a;
+  border: #8f391a;
+  color: white;
+}
+.page-link.active:hover{
+  background-color: black;
+  border: black;
+  color: white;
+}
+.planes:hover{
+  cursor:default;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.boton_redondo{
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.hover_cambiar_color:hover {
+background:#dc3545;
+}
+img:hover{
+  transform: scale(1.10);
+  transition: all 0.4s;
+}
+textarea{
+  resize: none;
+}
+.btn-enviar-caja{
+  background-color: #000000;
+}
+#btn-enviar:hover{
+  box-shadow: 3px 0px 30px red;
 }
 
 footer a {
   text-decoration: none;
 }
-body {
-  background: #000000;
-}
-
-.backgroundNegro{
+footer {
   background: #000000;
 }
 
