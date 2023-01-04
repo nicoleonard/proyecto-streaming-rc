@@ -7,27 +7,22 @@
     <meta name="description" content="practica de html y css" />
     <meta
       name="keywords"
-      content="Estrella+, Series, Peliculas, On demand, Servicios streaming"
-    />
+      content="Estrella+, Series, Peliculas, On demand, Servicios streaming"/>
     <meta
       name="author"
-      content="Barrionuevo Juan carlos,Leonard Bruno Nicolas, Monachesi Cesar Ezequiel, Rodriguez	Nahuel Federico "
-    />
-    <!-- bootstrap css-->
+      content="Barrionuevo Juan carlos,Leonard Bruno Nicolas, Monachesi Cesar Ezequiel, Rodriguez	Nahuel Federico "/>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="bg-dark">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a href="../index.html" class="navbar-brand"
-            ><h5>Estrella<span class="text-danger fs-3">+</span></h5></a
-          >
+        <div class="container-fluid mx-0">
+          <a href="./index.html" class="navbar-brand">
+            <img src="./img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg" class="logo-moon" alt="logo moon"></a>
           <button
             type="button"
             class="navbar-toggler"
@@ -41,21 +36,6 @@
               <li class="nav-item">
                 <a href="./index.html" class="nav-link active">Inicio</a>
               </li>
-              <li class="nav-item">
-                <div class="input-group mb-3">
-                  <button
-                    class="btn btn-outline-secondary"
-                    type="button"
-                    id="button-addon1"
-                  >
-                    <i class="bi bi-search text-light"></i>
-                  </button>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Busqueda..."
-                  />
-                </div>
               </li>
               <li class="nav-item">
                 <a href="./pages/Peliculas.html" class="nav-link">Peliculas</a>
@@ -73,20 +53,229 @@
                   >Subscribir</a
                 >
               </li>
+              <form class="busqueda">    
+              <div class="formulario_enviar">
+                <label for="busqueda"></label>
+                <input type="text" class="rounded-1"
+                placeholder="Busqueda..." size="15px"
+                minlength="2" maxlength="30">
+                <button type="submit" class="btn-enviar-caja rounded-1" id="btn-enviar"><i class="bi bi-search text-danger"></i></button>
+              </div>
+        </form>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+    <section>
+      <div id="carousel-Fade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Top Gun Maverick FHD.jpg" class="d-block w-100" alt="top gun maverick">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/The Walking Dead banner.jpg" class="d-block w-100" alt="TWD">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/compose MIRA COMO CORREN.jpg" class="d-block w-100" alt="Mira como corren">
+          </div>
+          <div class="carousel-item">
+              <img src="./img/Depredador la presa.jpg" class="d-block w-100" alt="Depredador la presa">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Deadpool 2.jpg" class="d-block w-100" alt="DeadPool 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Tini tour 2022.jpg" class="d-block w-100" alt="Tini tour 2022">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Fade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-Fade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <h5 class="text-light py-3">Peliculas o series sugeridas</h5>
+      <article class="row">
+        <aside class="col-md-2 mb-3">
+          <a href="/index.html"><img src="img/El Paciente.jfif" alt="El Paciente" class="w-100 rounded-3 filtro-tarjetas"/></a>
+        </aside>
+        <aside class="col-md-2 mb-3">
+          <a href="/index.html"><img src="img/chucky.jfif" alt="chucky" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+        </aside>
+        <aside class="col-md-2 mb-3">
+          <a href="/index.html"><img src="img/Deadpool.jfif" alt="Deadpool" class="w-100 rounded-3 filtro-tarjetas"/></a>
+        </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"><img src="img/Tup Gun.jfif" alt="TopGun" class="w-100 rounded-3 filtro-tarjetas"/></a>
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"><img src="img/The walking Dead.jfif" alt="TWD" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+          </aside>
+          <aside class="col-md-2 mb-3">
+            <a href="/index.html"><img src="img/Free Guy.jfif" alt="Freeguy" class="w-100 rounded-3 filtro-tarjetas"/></a>  
+          </aside>
+        </article>
+          <a href="/pages/Comedia.html"><h5 class="text-light text-decoration-underline py-3">Comedia</h5></a>
+          <article class="row">
+            <aside class="col-md-2 mb-3">
+              <a href="pages/lossimpsons.html"><img src="img/Los Simpson.jfif" alt="lossimpsons" class="w-100 rounded-3 filtro-tarjetas"/></a>
+            </aside>
+            <aside class="col-md-2 mb-3">
+              <a href="/index.html"><img src="img/Sonic 2.jfif" alt="Sonic 2" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+            </aside>
+            <aside class="col-md-2 mb-3">
+              <a href="/index.html"><img src="img/How i meet your mother.jfif" alt="How i meet" class="w-100 rounded-3 filtro-tarjetas"/></a>
+            </aside>
+              <aside class="col-md-2 mb-3">
+                <a href="/index.html"><img src="img/badging.jfif" alt="Badging" class="w-100 rounded-3 filtro-tarjetas"/></a>
+              </aside>
+              <aside class="col-md-2 mb-3">
+                <a href="/index.html"><img src="img/la ciudad perdida.jfif" alt="la ciudad perdida" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+              </aside>
+              <aside class="col-md-2 mb-3">
+                <a href="/index.html"><img src="img/El Encargado.jfif" alt="el encargado" class="w-100 rounded-3 filtro-tarjetas"/></a>  
+              </aside>
+            </article>
+            <a href="/pages/seriesparamaratonear.html"><h5 class="text-light text-decoration-underline py-3">Series para maratonear</h5></a>
+            <article class="row">
+              <aside class="col-md-2 mb-3">
+                <a href="/index.html"><img src="img/The handsmaids tale.jfif" alt="Thehandsmaidstale" class="w-100 rounded-3 filtro-tarjetas"/></a>
+              </aside>
+              <aside class="col-md-2 mb-3">
+                <a href="/index.html"><img src="img/The x files.jfif" alt="TheXfiles" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+              </aside>
+              <aside class="col-md-2 mb-3">
+                <a href="/index.html"><img src="img/sons of Anarchy.jfif" alt="SonsofAnarchy" class="w-100 rounded-3 filtro-tarjetas"/></a>
+              </aside>
+                <aside class="col-md-2 mb-3">
+                  <a href="/index.html"><img src="img/Lost.jfif" alt="lost" class="w-100 rounded-3 filtro-tarjetas"/></a>
+                </aside>
+                <aside class="col-md-2 mb-3">
+                  <a href="/index.html"><img src="img/Scream Queens.jfif" alt="screamqueens" class="w-100 rounded-3 filtro-tarjetas"/></a> 
+                </aside>
+                <aside class="col-md-2 mb-3">
+                  <a href="/index.html"><img src="img/Resident Alien.jfif" alt="Resident Alien" class="w-100 rounded-3 filtro-tarjetas"/></a>  
+                </aside>
+              </article>
+          </section>
+          <section>
+            <nav aria-label="Navegacion de pagina">
+              <ul class="pagination justify-content-center py-3">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="/pages/error404.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="pages/error404.html">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="/pages/error404.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section>
+            <div class="container">
+              <h2 class="text-white display-3 text-center my-5">Elegí tu plan</h2>
+              <article class="row">
+                <aside
+                  class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-1"
+                >
+                  <div class="card-body text-white">
+                    <h5
+                      class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                    >
+                      <b class="text-danger"
+                        >Moon <span class="text-secondary">+</span></b
+                      >
+                    </h5>
+                    <div
+                      class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                    >
+                      <h4 class="text-center display-5">Premium</h4>
+                      <p class="text-start">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Eaque quasi eius nemo ipsam doloribus doloremque saepe
+                        debitis, quidem inventore placeat?
+                      </p>
+                      <button type="button" class="btn btn-outline-danger">
+                        Suscribete
+                      </button>
+                    </div>
+                  </div>
+                </aside>
+                <aside
+                  class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-2"
+                >
+                  <div class="card-body text-white">
+                    <h5
+                      class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                    >
+                      <b class="text-danger"
+                        >Moon <span class="text-secondary">+</span></b
+                      >
+                    </h5>
+                    <div
+                      class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                    >
+                      <h4 class="text-center display-5">Familiar</h4>
+                      <p class="text-start">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Eaque quasi eius nemo ipsam doloribus doloremque saepe
+                        debitis, quidem inventore placeat?
+                      </p>
+                      <button type="button" class="btn btn-outline-danger">
+                        Suscribete
+                      </button>
+                    </div>
+                  </div>
+                </aside>
+                <aside
+                  class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-0"
+                >
+                  <div class="card-body text-white">
+                    <h5
+                      class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                    >
+                      <b class="text-danger"
+                        >Moon <span class="text-secondary">+</span></b
+                      >
+                    </h5>
+                    <div
+                      class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                    >
+                      <h4 class="text-center display-5">Classic</h4>
+                      <p class="text-start">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Eaque quasi eius nemo ipsam doloribus doloremque saepe
+                        debitis, quidem inventore placeat?
+                      </p>
+                      <button type="button" class="btn btn-outline-danger">
+                        Suscribete
+                      </button>
+                    </div>
+                  </div>
+                </aside>
+              </article>
+            </div>
+          </section> 
+    </main>
     <footer class="py-4">
       <section class="container w-50">
-        <section class="d-flex justify-content-center">
-          <h4 class="m-0 fs-3 text-light">
-            Estrella<span class="text-danger fs-3">+</span>
-          </h4>
+        <section
+          class="d-flex flex-row align-items-center justify-content-center fs">
+          <img src="img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg" class="logo-moon" alt="logo moon">
         </section>
-
         <article class="row text-secondary mt-4 justify-content-center">
           <aside class="col-12 col-md-4 mt-2 text-center px-0">
             <a
@@ -116,18 +305,14 @@
             <a
               href="./pages/nosotros.html"
               class="text-secondary filtro_enlaces"
-              >Acerca de Estrella+</a
-            >
+              >Acerca de Moon +</a>
           </aside>
         </article>
-
-        <section class="mt-4 text-secondary text-center">
-          <p class>&copy;Todos los derechos reservados</p>
-          <p class>
-            Estrella+ es un servicio por sucripción de pago, su contendido está
-            sujeto a disponibilidad.
-          </p>
-        </section>
+      </section>
+      <section class="container w-50 mt-4 text-secondary text-center">
+        <p class>&copy;Todos los derechos reservados</p>
+         <h5>Moon+</h5>  es un servicio por sucripción de pago, su contendido está
+          sujeto a disponibilidad.
       </section>
     </footer>
   </body>
@@ -135,6 +320,6 @@
     src="https://kit.fontawesome.com/170be67319.js"
     crossorigin="anonymous"
   ></script>
-  <!-- bootstrap js-->
-  <script src="./js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js">
+</script>
 </html>
