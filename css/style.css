@@ -96,8 +96,36 @@ footer {
 }
 .dropdown-mega .dropdown-menu{
   width: 100%;
-  
+   
 }
+
+
 .dropdown-menu .list-group-item{
   border: none;
+  color: #c2c1c1;
 }
+.dropdown-menu .list-group-item:hover{
+  color: white;
+}
+#boton_categorias{
+  border-radius: 25px;
+}
+.dropdown-item:hover{
+  background: #495057;
+}
+#dropdown_navbar .dropdown-item{
+  color: #c2c1c1;
+}
+
+@media all and (max-width:767px){
+ #dropdown_mega_navbar{
+  display: none;
+  }
+
+}  
+ @media all and (min-width:768px){
+
+  #dropdown_navbar{
+    display: none;
+  }
+  } 
