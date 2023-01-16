@@ -9,8 +9,8 @@
     min-width: 300px;
     min-height: 800px;
     height: 120vh;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 6%  6% 15% 4% 20% 4% 20%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20vh 8vh 6vh 15vh 5vh 30vh 5vh 20vh;
 }
 .detalles{
     grid-row-start: 2;
@@ -47,6 +47,7 @@
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 3;
+    font-size: small;
 }
 
 .sugerencias_titulo{
@@ -64,17 +65,16 @@
 }
 
 
-@media all and (min-width: 0px) and (max-width: 768px){
+@media all and (min-width: 0px) and (max-width: 767px){
     .grilla{
-        height: 120vh;
+        min-height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20% 6%  6% 20% 4% 20% 4% 20%;
+        grid-template-rows: 20vh 8.5vh 7vh 30vh 5vh auto 5vh auto;
     }
 
     .banner{
         min-width: 300px;
-        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 70%, rgba(0,0,0, 0.8) 80%, rgba(0,0,0,0.2) 85%, rgba(0,0,0,0)), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 80%, rgba(0,0,0, 0.8) 88%, rgba(0,0,0,0.2) 90%, rgba(0,0,0,0)), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
         background-size: contain;
     }
-
 }
