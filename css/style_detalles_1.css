@@ -1,0 +1,80 @@
+.banner{
+    background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.grilla{
+    min-width: 300px;
+    min-height: 800px;
+    height: 120vh;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20vh 8vh 6vh 15vh 5vh 30vh 5vh 20vh;
+}
+.detalles{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: small;
+}
+
+.btn_banner{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.descripcion{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.detalles_titulo{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.mas_detalles{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: small;
+}
+
+.sugerencias_titulo{
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.sugerencias{
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+@media all and (min-width: 0px) and (max-width: 767px){
+    .grilla{
+        min-height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 20vh 8.5vh 7vh 30vh 5vh auto 5vh auto;
+    }
+
+    .banner{
+        min-width: 300px;
+        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 80%, rgba(0,0,0, 0.8) 88%, rgba(0,0,0,0.2) 90%, rgba(0,0,0,0)), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+        background-size: contain;
+    }
+}
