@@ -10,7 +10,7 @@
     min-height: 800px;
     height: 120vh;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 20vh 8vh 6vh 15vh 5vh 30vh 5vh 20vh;
+    grid-template-rows: 20vh 8vh 6vh 22vh 5vh 43vh 5vh 20vh;
 }
 .detalles{
     grid-row-start: 2;
