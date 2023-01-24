@@ -87,52 +87,97 @@
     grid-column-end: 3;
 }
 
-
 @media all and (min-width: 0px) and (max-width: 767px){
+  .grilla{
+      min-height: 100vh;
+      grid-template-columns: 100%;
+      grid-template-rows: 20vh 8.5vh 7vh 40vh 5vh auto 5vh auto;
+      row-gap: 25px;   
+  }
+
+  .detalle_el_paciente .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+      background-size: contain;
+  }
+  .detalle_ad_astra .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/adastra.jpg);
+      background-size: contain;
+  }
+  .detalle_alien .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/Alien.jpg);
+      background-size:contain;
+    }
+    .detalle_aliens .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/aliens.jpg);
+      background-size:contain;
+    }
+    .detalle_alien_3 .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/alien3.jpg);
+      background-size:contain;
+  }
+    .detalle_alien_covenant .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+      background-size:contain
+    }
+    .detalle_alien_resurrection .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+      background-size:contain
+    }
+
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
     .grilla{
         min-height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20vh 8.5vh 7vh 40vh 5vh auto 5vh auto;
+        grid-template-rows: 20vh 8.5vh 7vh 15vh 5vh auto 5vh auto;
+        row-gap: 25px;   
     }
 
     .detalle_el_paciente .banner{
         min-width: 300px;
-        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
         background-size: contain;
     }
     .detalle_ad_astra .banner{
         min-width: 300px;
-        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/adastra.jpg);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/DetallesCienciaFiccion/adastra.jpg);
         background-size: contain;
     }
     .detalle_alien .banner{
         min-width: 300px;
-        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/Alien.jpg);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/Alien.jpg);
         background-size:contain;
       }
       .detalle_aliens .banner{
         min-width: 300px;
-        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/aliens.jpg);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/aliens.jpg);
         background-size:contain;
       }
       .detalle_alien_3 .banner{
         min-width: 300px;
-        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alien3.jpg);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alien3.jpg);
         background-size:contain;
     }
       .detalle_alien_covenant .banner{
         min-width: 300px;
-        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
         background-size:contain
       }
       .detalle_alien_resurrection .banner{
         min-width: 300px;
-        background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
         background-size:contain
       }
-  
-      .grilla{
-        row-gap: 50px;     
-        
-      }
+
 }
+
+    
