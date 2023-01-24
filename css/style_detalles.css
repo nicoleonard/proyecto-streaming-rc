@@ -10,6 +10,23 @@
 .detalle_ad_astra .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/adastra.jpg);
 }
+.detalle_alien .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/Alien.jpg);
+}
+.detalle_aliens .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/aliens.jpg);
+}
+.detalle_alien_3 .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alien3.jpg);
+}
+.detalle_alien_covenant .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+  
+}
+.detalle_alien_resurrection .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+  
+}
 
 .grilla{
     min-width: 300px;
