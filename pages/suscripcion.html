@@ -291,25 +291,116 @@
       </nav>
     </header>
     <main class="fondo">
-      <div class="container">
+      <section>
+        <div class="container">
+          <h2 class="text-white display-3 text-center mt-5">
+            Planes disponibles
+          </h2>
+          <p class="text-white text-center mb-5">
+            Con tu suscripcion primer mes gratis.
+          </p>
+          <article class="row">
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-1"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Premium</h4>
+                  <p class="text-center">
+                    Mira Moon+ en tu TV, computadora, celular y tablet. <br />
+                    Cantidad dispositivos <b>4</b><br />
+                    Calidad de video <b>Óptima</b><br />
+                    Resolución <b>Ultra HD 4k</b><br />
+                    Precio mensual<br /><b>$1050</b>
+                  </p>
+                </div>
+              </div>
+            </aside>
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-2"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Duo</h4>
+                  <p class="text-center">
+                    Mira Moon+ en tu TV, computadora, celular y tablet. <br />
+                    Cantidad dispositivos <b>2</b><br />
+                    Calidad de video <b>Mejor</b><br />
+                    Resolución <b>Full HD 1080p</b><br />
+                    Precio mensual<br /><b>$900</b>
+                  </p>
+                </div>
+              </div>
+            </aside>
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-0"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Classic</h4>
+                  <p class="text-center">
+                    Mira Moon+ en tu TV, computadora, celular y tablet. <br />
+                    Cantidad dispositivos <b>2</b><br />
+                    Calidad de video <b>Buena</b><br />
+                    Resolución <b>HD 720p</b><br />
+                    Precio mensual<br /><b>$700</b>
+                  </p>
+                </div>
+              </div>
+            </aside>
+          </article>
+        </div>
+      </section>
+      <section class="container">
         <article class="row justify-content-center my-5">
+          <div class="mb-5 text-center">
+            <img src="../img/moonpluslogo.jpg" alt="logo" class="w-50" />
+          </div>
           <form class="col-md-7 col-lg-5 text-white">
-            <div>
-              <img src="../img/moonpluslogo.jpg" alt="" class="w-100" />
-            </div>
-            <p class="mb-0">Paso 1 de 4</p>
-            <h3 class="mb-4">Ingresa tu correo electrónico</h3>
             <p>
-              <span class="fs-5">¿Ya tienes una cuenta en Moon+?</span><br />
-              Ingresa el mismo correo electrónico para poder facilitar el acceso
-              y poder tomar el pago rápidamente.
+              <span class="fs-5">¿Ya tienes una cuenta en Moon+?</span
+              ><br />Accede a
+              <a href="../pages/error.html" class="text-danger"
+                >inciar sesión</a
+              >
             </p>
+            <h3 class="mb-4">Crear cuenta</h3>
             <div class="mb-3">
               <input
                 type="name"
                 name="nombre"
                 id="nombreCompleto"
                 placeholder="Nombre"
+                minlength="3"
+                maxlength="15"
+                required
                 class="form-control text-bg-dark border-0 rounded-1"
               />
               <input
@@ -317,6 +408,9 @@
                 name="apellido"
                 id="apellidos"
                 placeholder="Apellido"
+                minlength="3"
+                maxlength="20"
+                required
                 class="form-control text-bg-dark border-0 rounded-1 mt-2"
               />
               <input
@@ -324,6 +418,28 @@
                 name="correoElectronico"
                 id="correoelEctronico"
                 placeholder="correo@electronico.com"
+                minlength="6"
+                required
+                class="form-control text-bg-dark border-0 rounded-1 mt-2"
+              />
+              <input
+                type="password"
+                name="password"
+                id="contraseña"
+                placeholder="Contraseña"
+                required
+                class="form-control text-bg-dark border-0 rounded-1 mt-2"
+              />
+              <p>
+                Usa al menos seis caracteres (distingue mayúsculas y
+                minúsculas), incluido un número o carácter especial.
+              </p>
+              <input
+                type="password"
+                name="password"
+                id="contraseña"
+                placeholder="Repetir contraseña"
+                required
                 class="form-control text-bg-dark border-0 rounded-1 mt-2"
               />
             </div>
@@ -338,8 +454,19 @@
                 información de Moon+.</label
               >
             </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="checkSuscripcion"
+                required
+              />
+              <label class="form-check-label" for="checkSuscripcion">
+                Acepto términos y condiciones.</label
+              >
+            </div>
             <div class="bg-dark p-2 rounded-2">
-              <p>
+              <p class="fs-6">
                 Moon+ usará tus datos para personalizar y mejorar tu experiencia
                 en Moon+ y para enviarte información sobre Moon+. Puedes cambiar
                 tus preferencias de comunicación en cualquier momento. Podemos
@@ -349,15 +476,17 @@
                 Continuar, reconoces que has leído nuestra
                 <a href="" class="text-danger">Politica de seguridad</a>.
               </p>
-              <a
-                href="../pages/suscripcion-dos.html"
+              <button
+                type="submit"
                 class="btn btn_continuar text-white fw-bold text-uppercase w-100"
-                >Continuar</a
+                href="../index.html"
               >
+                Crear cuenta
+              </button>
             </div>
           </form>
         </article>
-      </div>
+      </section>
     </main>
         <footer class="py-4">
             <section class="container w-50">
