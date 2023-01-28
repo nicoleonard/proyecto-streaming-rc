@@ -1,11 +1,23 @@
 .banner{    
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top left;
 }
 
 .detalle_el_paciente .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+}
+.detalle_chucky .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/chucky.jpg);
+}
+.detalle_deadpool .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/deadpool.jpg);
+}
+.detalle_topgun .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/topgun.jpg);
+}
+.detalle_walkingdead .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/walkingdead.jpg);
 }
 .detalle_ad_astra .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/adastra.jpg);
@@ -27,6 +39,8 @@
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
   
 }
+
+
 
 .grilla{
     min-width: 300px;
@@ -100,6 +114,27 @@
       background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
       background-size: contain;
   }
+  .detalle_chucky .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/chucky.jpg);
+    background-size: contain;
+  }
+  .detalle_deadpool .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/deadpool.jpg);
+    background-size: contain;
+  }
+  .detalle_topgun .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/topgun.jpg);
+    background-size: contain;
+  }
+  .detalle_walkingdead .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/walkingdead.jpg);
+    background-size: contain;
+  }
+
   .detalle_ad_astra .banner{
       min-width: 300px;
       background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/adastra.jpg);
@@ -146,6 +181,26 @@
         min-width: 300px;
         background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
         background-size: contain;
+    }
+    .detalle_chucky .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/chucky.jpg);
+      background-size: contain;
+    }
+    .detalle_deadpool .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/deadpool.jpg);
+      background-size: contain;
+    }
+    .detalle_topgun .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/topgun.jpg);
+      background-size: contain;
+    }
+    .detalle_walkingdead .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/walkingdead.jpg);
+      background-size: contain;
     }
     .detalle_ad_astra .banner{
         min-width: 300px;
