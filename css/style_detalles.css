@@ -19,6 +19,9 @@
 .detalle_walkingdead .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/walkingdead.jpg);
 }
+.detalle_freeguy .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/freeguy.jpg);
+}
 .detalle_ad_astra .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/adastra.jpg);
 }
@@ -39,6 +42,24 @@
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
   
 }
+.detalle_30_nochesconmiex .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/30nochesconmiex.webp);
+}
+.detalle_3idiotas .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/3idiotasfhd.jpg);
+}
+.detalle_500diasconella .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/500daysofsummer.jpg);
+}
+.detalle_absolutelyfabulous .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/fabu.jpg);
+}
+.detalle_alamala .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/alamala2.jpg);
+}
+.detalle_aliensstolemybody .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+}
 
 
 
@@ -47,7 +68,7 @@
     min-height: 800px;
     height: 120vh;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 20vh 8vh 6vh 22vh 5vh 43vh 5vh 20vh;
+    grid-template-rows: 20vh 8vh 6vh auto 5vh auto 5vh 20vh;
 }
 .detalles{
     grid-row-start: 2;
@@ -105,7 +126,7 @@
   .grilla{
       min-height: 100vh;
       grid-template-columns: 100%;
-      grid-template-rows: 20vh 8.5vh 7vh 40vh 5vh auto 5vh auto;
+      grid-template-rows: 20vh 8.5vh 7vh auto 5vh auto 5vh auto;
       row-gap: 25px;   
   }
 
@@ -132,6 +153,11 @@
   .detalle_walkingdead .banner{
     min-width: 300px;
     background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/walkingdead.jpg);
+    background-size: contain;
+  }
+  .detalle_freeguy .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/freeguy.jpg);
     background-size: contain;
   }
 
@@ -166,6 +192,37 @@
       background-size:contain
     }
 
+    .detalle_30_nochesconmiex .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/30nochesconmiex.webp);
+      background-size:contain;
+    }
+    .detalle_3idiotas .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/3idiotasfhd.jpg);
+      background-size:contain;
+    }
+    .detalle_500diasconella .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/500daysofsummer.jpg);
+      background-size:contain;
+  }
+    .detalle_absolutelyfabulous .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/fabu.jpg);
+      background-size:contain
+    }
+    .detalle_alamala .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/alamala2.jpg);
+      background-size:contain
+    }
+    .detalle_aliensstolemybody .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+      background-size: contain;
+    }
+
 
 }
 
@@ -173,7 +230,7 @@
     .grilla{
         min-height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20vh 8.5vh 7vh 15vh 5vh auto 5vh auto;
+        grid-template-rows: 20vh 8.5vh 7vh auto 5vh auto 5vh auto;
         row-gap: 25px;   
     }
 
@@ -200,6 +257,11 @@
     .detalle_walkingdead .banner{
       min-width: 300px;
       background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/walkingdead.jpg);
+      background-size: contain;
+    }
+    .detalle_freeguy .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/freeguy.jpg);
       background-size: contain;
     }
     .detalle_ad_astra .banner{
@@ -230,6 +292,36 @@
       .detalle_alien_resurrection .banner{
         min-width: 300px;
         background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+        background-size:contain
+      }
+      .detalle_30_nochesconmiex .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/30nochesconmiex.webp);
+        background-size:contain
+      }
+      .detalle_3idiotas .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/3idiotasfhd.jpg);
+        background-size:contain
+      }
+      .detalle_500diasconella .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/500daysofsummer.jpg);
+        background-size:contain
+      }
+      .detalle_absolutelyfabulous .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/fabu.jpg);
+        background-size:contain
+      }
+      .detalle_alamala .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/alamala2.jpg);
+        background-size:contain
+      }
+      .detalle_aliensstolemybody .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/Aliensstoylemy.jpg);
         background-size:contain
       }
 
