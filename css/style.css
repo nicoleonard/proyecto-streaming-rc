@@ -22,8 +22,10 @@ body {
 .input_email::placeholder{
   color: #fff
 }
+
 nav{
   background: black;
+  
 }
 main {
   flex-grow: 1;
