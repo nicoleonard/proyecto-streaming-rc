@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 }
 .logo-moon{
   width: 100px;
@@ -24,11 +25,18 @@ body {
 }
 
 nav{
-  background: black;
-  
+  background: black;  
 }
+
+.navbar{
+  position: fixed; 
+  z-index: 2;
+  width: 100%;
+}
+
 main {
   flex-grow: 1;
+  margin-top: 40px;
 }
 .modal-dialog .modal-content{
   background: #495057;
