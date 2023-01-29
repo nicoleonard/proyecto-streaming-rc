@@ -126,7 +126,10 @@ footer {
 #dropdown_navbar .dropdown-item{
   color: #c2c1c1;
 }
-
+#dropdown_mega_navbar button{
+  
+  font-size: calc(0.5em + 0.5vw);
+}
 @media all and (max-width:767px){
  #dropdown_mega_navbar{
   display: none;
