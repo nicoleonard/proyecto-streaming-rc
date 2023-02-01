@@ -5,13 +5,14 @@
 }
 
 .detalle_el_paciente .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
 }
 .detalle_chucky .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/chucky.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/chucky.jpg);
 }
 .detalle_deadpool .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/deadpool.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/deadpool.jpg);
+  
 }
 .detalle_topgun .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/topgun.jpg);
