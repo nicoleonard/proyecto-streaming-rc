@@ -15,51 +15,51 @@
   
 }
 .detalle_topgun .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/topgun.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/topgun.jpg);
 }
 .detalle_walkingdead .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/walkingdead.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/walkingdead.jpg);
 }
 .detalle_freeguy .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/freeguy.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/freeguy.jpg);
 }
 .detalle_ad_astra .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/adastra.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/adastra.jpg);
 }
 .detalle_alien .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/Alien.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/Alien.jpg);
 }
 .detalle_aliens .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/aliens.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/aliens.jpg);
 }
 .detalle_alien_3 .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alien3.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alien3.jpg);
 }
 .detalle_alien_covenant .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
   
 }
 .detalle_alien_resurrection .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
   
 }
 .detalle_30_nochesconmiex .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/30nochesconmiex.webp);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/30nochesconmiex.webp);
 }
 .detalle_3idiotas .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/3idiotasfhd.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/3idiotasfhd.jpg);
 }
 .detalle_500diasconella .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/500daysofsummer.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/500daysofsummer.jpg);
 }
 .detalle_absolutelyfabulous .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/fabu.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/fabu.jpg);
 }
 .detalle_alamala .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/alamala2.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/alamala2.jpg);
 }
 .detalle_aliensstolemybody .banner{
-  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.8) 40%, rgba(0,0,0,0) 60%), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/Aliensstoylemy.jpg);
 }
 
 
