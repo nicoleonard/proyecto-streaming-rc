@@ -133,6 +133,14 @@ footer {
   
   font-size: calc(0.5em + 0.5vw);
 }
+#videoModal{
+  background: transparent;
+}
+#videoModal .modal-content{
+  background: transparent;
+  border: none;
+}
+
 @media all and (max-width:767px){
  #dropdown_mega_navbar{
   display: none;

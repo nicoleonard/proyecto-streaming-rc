@@ -324,13 +324,27 @@
               </a>
             </aside>
             <aside class="d-flex align-items-center">
-              <a
-                class="d-flex justify-content-center align-items-center rounded text-dark text-decoration-none text-center bg-black fw-bold border border-2  w-100 h-100 p-1 px-md-5 px-2"
-                href="../../error404.html"
-              >
-               
-                <p class="m-0 text-light">TRÁILER</p>
-              </a>
+
+              <button type="button" 
+              class="btn bg-black text-white border border-white w-100 h-100 fs-5 px-5" 
+              data-bs-toggle="modal" 
+              data-bs-target="#videoModal" 
+              id="boton_trailer">
+                TRÁILER
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+       
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/AiX248OtL8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </aside>
             <aside class="d-flex align-items-center">
               <i class="bi bi-plus-circle fs-1 ps-2"></i>
