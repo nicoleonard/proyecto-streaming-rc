@@ -145,7 +145,10 @@ footer {
  #dropdown_mega_navbar{
   display: none;
   }
-
+  #videoModal iframe{
+    width: 100%;
+    
+  }
 }  
  @media all and (min-width:768px){
 
