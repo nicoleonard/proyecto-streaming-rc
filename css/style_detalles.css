@@ -6,60 +6,79 @@
 
 .detalle_el_paciente .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+   background-size: cover;
 }
 .detalle_chucky .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/chucky.jpg);
+   background-size: cover;
+ 
 }
 .detalle_deadpool .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/deadpool.jpg);
+   background-size: cover;
   
 }
 .detalle_topgun .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/topgun.jpg);
+   background-size: cover;
 }
 .detalle_walkingdead .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/walkingdead.jpg);
+   background-size: cover;
 }
 .detalle_freeguy .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/freeguy.jpg);
+   background-size: cover;
 }
 .detalle_ad_astra .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/adastra.jpg);
+   background-size: cover;
 }
 .detalle_alien .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/Alien.jpg);
+   background-size: cover;
 }
 .detalle_aliens .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/aliens.jpg);
+   background-size: cover;
 }
 .detalle_alien_3 .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alien3.jpg);
+   background-size: cover;
 }
 .detalle_alien_covenant .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+   background-size: cover;
   
 }
 .detalle_alien_resurrection .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+   background-size: cover;
   
 }
 .detalle_30_nochesconmiex .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/30nochesconmiex.webp);
+   background-size: cover;
 }
 .detalle_3idiotas .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/3idiotasfhd.jpg);
+   background-size: cover;
 }
 .detalle_500diasconella .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/500daysofsummer.jpg);
+   background-size: cover;
 }
 .detalle_absolutelyfabulous .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/fabu.jpg);
+   background-size: cover;
 }
 .detalle_alamala .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/alamala2.jpg);
+   background-size: cover;
 }
 .detalle_aliensstolemybody .banner{
   background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+   background-size: cover;
 }
 
 
