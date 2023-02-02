@@ -36,7 +36,7 @@ nav{
 
 main {
   flex-grow: 1;
-  margin-top: 40px;
+  margin-top: 48px;
 }
 .modal-dialog .modal-content{
   background: #495057;
@@ -109,7 +109,10 @@ footer {
    
 }
 
-
+.mega-content .btn{
+  width: 100%;
+  height: 100%;
+}
 .dropdown-menu .list-group-item{
   border: none;
   color: #c2c1c1;
@@ -142,3 +145,24 @@ footer {
     display: none;
   }
   } 
+
+  @media all and (max-width:991px){
+.mega-content .btn{
+  height: 100px;
+  width: 120px;
+}
+#botones_mega {
+  margin-top: 2rem;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+
+.mega-content .row aside{
+  display: flex;
+  justify-content: space-evenly; 
+  width: 140px;
+}
+  }
